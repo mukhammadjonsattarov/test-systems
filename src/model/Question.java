@@ -6,7 +6,7 @@ public class Question {
     private final String optionB;
     private final String optionC;
     private final String optionD;
-    private final String correctAnswer; // "a", "b", "c", "d"
+    private final String correctAnswer;
 
     public Question(String text, String optionA, String optionB, String optionC, String optionD, String correctAnswer) {
         this.text = text;
