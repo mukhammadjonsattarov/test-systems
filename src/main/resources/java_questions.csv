@@ -1,0 +1,11 @@
+Savol;VariantA;VariantB;VariantC;VariantD;To‘g‘riJavob
+Java-da Stream API nima uchun ishlatiladi?;Fayl o‘qish;Ma’lumotlarni oqim orqali qayta ishlash;Logging qilish;Thread yaratish;b
+Java-da "synchronized" kalit so‘zi nima qiladi?;Oqim yaratadi;Paralel kod bajaradi;Thread xavfsizligini ta’minlaydi;Hech narsa qilmaydi;c
+Java-da Logger nima uchun kerak?;Fayl o‘qish;Xatoliklarni yozish;Thread yaratish;Streamni boshqarish;b
+Java-da Garbage Collector nima vazifani bajaradi?;Xotirani boshqaradi;Thread yaratadi;Logging qiladi;CSV fayl o‘qiydi;a
+Java-da interface nima uchun kerak?;Ma’lumot saqlash;Obyekt yaratish;Shartnoma (contract) belgilash;Thread boshqarish;c
+Java-da abstract class nimani anglatadi?;To‘liq implementatsiya;Qisman implementatsiya;Hech narsa qilmaydi;Thread yaratadi;b
+Java-da exception handling qaysi kalit so‘zlar bilan amalga oshiriladi?;if/else;try/catch/finally;for/while;switch/case;b
+Java-da Collection framework nima?;Database;Ma’lumotlar to‘plami bilan ishlash uchun API;Logging framework;Thread boshqarish;b
+Java-da polymorphism nimani bildiradi?;Ko‘p shakllilik;Bir xil obyekt;Thread ishlatish;Exception handling;a
+Java-da constructor nima qiladi?;Obyektni yaratadi;Xatolikni yozadi;Thread yaratadi;Streamni boshqaradi;a
