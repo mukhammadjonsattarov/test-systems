@@ -5,9 +5,9 @@ import model.Result;
 import model.User;
 import util.DateUtil;
 import util.LoggerUtil;
+import util.RandomUtil;
 
 import java.util.List;
-import java.util.Random;
 
 public class TestService implements Runnable {
     private final User user;
@@ -25,7 +25,6 @@ public class TestService implements Runnable {
         int correct = 0;
         long start = System.currentTimeMillis();
 
-        Random random = new Random();
 
         for (Question q : questions) {
             System.out.println("\n" + user.getName() + " uchun savol: " + q.getText());
@@ -35,7 +34,7 @@ public class TestService implements Runnable {
             System.out.println("d) " + q.getOptionD());
 
             String[] options = {"a", "b", "c", "d"};
-            String answer = options[random.nextInt(options.length)];
+            String answer = RandomUtil.getRandomElement(List.of(options));
             System.out.println(user.getName()+" javobi: " + answer);
 
             if (answer.equalsIgnoreCase(q.getCorrectAnswer())) {
